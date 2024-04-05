@@ -1,0 +1,556 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Caudex", serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #fff; 
+    color: #457103;
+    overflow-x: hidden;
+  }
+
+
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #457103; 
+    border-radius: 5px; 
+    width: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+  .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  .green-bar {
+    background-color: #13730C;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    margin-top: -8px;
+}
+
+  .content {
+    text-align: center; 
+  }
+
+  .title-box {
+    position: relative;
+    right: 40px;
+}
+
+  .navbar {
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #13730C;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+/*****************Section Accueil*****************/
+  .Accueil {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    margin-top: 50px;
+  }
+
+  .banner {
+    flex: 1; 
+    background-image: url('./photo/photo-section-accueil.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 70%; 
+    border-radius: 10px; 
+    margin-left: 20px; 
+
+  }
+
+  .Accueil-section {
+    flex: 1; 
+    padding: 50px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .section-description {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+  }
+
+  .section-link {
+    color: #fff;
+    background-color: #0b4d0a28;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+    padding: 5px 25px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+  }
+
+  /*************************Section Bienvenue*************************/
+  .Bienvenue {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1DCC0;
+  }
+
+  .Bienvenue-banner {
+    flex: 1; 
+    background-image: url('./photo/bienvenue-banner.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    position: relative;
+    left: 70px;    
+  }
+
+  .Bienvenue-content {
+    font-family: "Cormorant Garamond", serif;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    max-width: 600px;
+    z-index: 1;
+    position: relative;
+    right: 250px;
+    top: 100px;
+  }
+
+  .Bienvenue-title {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  .Bienvenue-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+.Bienvenue .section-link {
+    color: #fff;
+    background-color: #D1DCC0;
+    position: relative;
+    left: 150px;
+}
+
+/*****************Section Beauté du Visage*****************/
+.beauté-de-visage {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .beauté-de-visage-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .beauté-de-visage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .beauté-de-visage-banner {
+    flex: 1; 
+    background-image: url('./photo/photo-section-beauté.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 400px; 
+    border-radius: 10px; 
+    margin-left: 20px;
+  }
+  
+  .beauté-de-visage-description {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .beauté-de-visage-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .beauté-de-visage-description p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+
+  .beauté-de-visage .section-link {
+    color: #fff;
+    background-color: #D1DCC0;
+}
+
+
+/*****************Section Beauté du Corps*****************/
+.beauté-du-corps {
+    padding: 50px;
+    text-align: center;
+  }
+    
+  .beauté-du-corps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+.beauté-du-corps-banner {
+    background-image: url('./photo/photo-section-beauté-du-corps.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    width: 600px; 
+    height: 400px; 
+    margin-right: 20px;
+    border-radius: 10px; 
+  }
+      
+  .beauté-du-corps-description {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .beauté-du-corps-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .beauté-du-corps-description p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+
+  .beauté-du-corps .section-link {
+    color: #fff;
+    background-color: #D1DCC0;
+}
+
+ /*****************Section Produits Populaires*****************/
+.produits-populaires {
+    padding: 50px;
+    text-align: center;
+    background-color: #E4E4A3;
+    font-family: "Sen", sans-serif;
+}
+
+.produits-populaires-title {
+    font-size:x-large;
+    margin-bottom: 30px;
+}
+
+.produits-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produit {
+    margin: 0 10px; 
+}
+
+.produit img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; 
+}
+
+.produit-nom {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.produit-prix {
+    font-size: 18px;
+    color: #888; 
+}
+
+/*****************Section Engagement*****************/
+.engagement {
+    padding: 80px 0;
+}
+
+.engagement-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.engagement-content {
+    max-width: 50%;
+    padding: 0 20px;
+    text-align: center; 
+}
+
+.engagement-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.engagement-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.engagement-banner {
+    margin-top: 20px;
+}
+
+.engagement .section-link {
+    color: #fff;
+    background-color: #D1DCC0;
+}
+
+
+/*****************Section testimonial*****************/
+
+.testimonial-section {
+    background-color: #A2B881;
+    padding: 50px 0;
+  }
+  
+  .testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .testimonial {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /*************************Section Informations*************************/
+  .Information {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; 
+}
+
+.Information-banner {
+    margin-left: 1px;
+}
+
+.Information-banner img {
+    width: 801px;
+    height: 400px;
+}
+
+
+.Information-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Information-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.Information-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #457103; 
+    margin-bottom: 10px; 
+}
+
+.newsletter-form input[type="email"]::placeholder {
+    color: #457103; 
+}
+
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #457103;
+    color: #fff;
+    border: none;
+    width: 320px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form p {
+    color: #457103;
+}
+
+
+/*****************Section Contact*****************/
+.footer {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 800px;
+}
+.footer-column {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 30px;
+    text-align: right; 
+}
+
+.footer-column {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.footer-column h3 {
+    color: #457103;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+}
+
+.social-media-icons {
+    margin-top: 50px;
+}
+
+.social-media-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media-icons a:hover {
+    color: #457103;
+}
+
+.footer-logo {
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.scrollToTop {
+    z-index: 999;
+    padding: 10px 12px;
+    text-align: center;
+    background: #457103;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 80px;
+    right: 15px;
+    display: none;
+    margin-bottom: 40px;
+    width: 10px;
+    height: 10px;
+}
+
+.scrollToTop span {
+    position: relative;
+    top: -4px;
+}
+
